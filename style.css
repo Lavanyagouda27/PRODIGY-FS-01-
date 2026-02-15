@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+}
+
+/* Glass Card */
+.card{
+    width:350px;
+    padding:30px;
+    border-radius:15px;
+    backdrop-filter: blur(10px);
+    background:rgba(255,255,255,0.15);
+    box-shadow:0 8px 32px rgba(0,0,0,0.2);
+    color:white;
+    text-align:center;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+/* Inputs */
+input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    border-radius:8px;
+}
+
+/* Button */
+button{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    border:none;
+    border-radius:8px;
+    background:#ff9800;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#ffb74d;
+}
+
+/* Links */
+a{
+    color:#fff;
+    display:block;
+    margin-top:15px;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* Dashboard */
+.dashboard{
+    text-align:center;
+    color:white;
+}
